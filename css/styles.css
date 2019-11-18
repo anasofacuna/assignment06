@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alata|Staatliches&display=swap');
 
+
+/*Design Elements*/
 body {
 	background-color: #000000;
 }
@@ -42,6 +44,12 @@ footer {
 	padding-top: 20px;
 }
 
+/*Actions*/
+img:hover {
+	opacity: 0.3;
+}
+
+/*Classes*/
 .list{
 	font-family: 'Alata', sans-serif;
 	color: #CCCCCC;
