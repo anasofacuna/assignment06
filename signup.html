@@ -4,28 +4,49 @@
 <head>
 	<meta charset="utf-8">
 	<title>Assignment 6: Full Brochure Website</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/override.css">
 </head>
 
 <body>
 <div class="container">
 
-	<header>
-		<h1>UR Women's Rugby</h1>
-	</header>
-
-	<nav>
-		<ul>
-			<li><a href="home.html">Home</a></li>
-			<li><a href="info.html">What is Rugby?</a></li>
-			<li><a href="signup.html">Join us!</a></li>
-		</ul>
-	</nav>
+	<div class="row">
+		<div class="col-md-12">
+			<header class="text-center">
+				<h1>UR Women's Rugby</h1>
+			</header>
+		</div>
+	</div>
+	<div class="row">
+		<nav>
+			<ul>
+				<div class="col-md-4">
+					<li><a href="home.html">Home</a></li>
+				</div>
+				<div class="col-md-4">
+					<li><a href="info.html">What is Rugby?</a></li>
+				</div>
+				<div class="col-md-4">
+					<li><a href="signup.html">Join us!</a></li>
+				</div>
+			</ul>
+		</nav>
+	</div>
 
 	<main>
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Any questions or concerns? Interested in playing? Talk to us!</h2>
+		</div>
+	</div>
 
-	<h2>Any questions or concerns? Interested in playing? Talk to us!</h2>
-
-	<p>We're happy to answer any questions that you have, or add you to our email list.</p>
+	<div class="row">
+		<div class="col-md-12">
+			<p>We're happy to answer any questions that you have, or add you to our email list.</p>
+		</div>
+	</div>
 	
 	<form method="post" action="#">
 		<fieldset>
@@ -57,11 +78,11 @@
 
 	</main>
 
-	<footer>
+	<footer class="row">
 		<p>
 			<ul>
-				<li>CSC 174: Advanced Front-end Web Design and Development</li>
-				<li>All content gathered from <a href="https://en.wikipedia.org/wiki/Rugby_football">some place</a> and <a href="https://en.wikipedia.org/wiki/Rugby_football">some other place</a></li>
+				<li class="col-md-6">CSC 174: Advanced Front-end Web Design and Development</li>
+				<li class="col-md-6">All content gathered from <a href="https://en.wikipedia.org/wiki/Rugby_football">some place</a> and <a href="https://en.wikipedia.org/wiki/Rugby_football">some other place</a></li>
 			</ul>
 		</p>
 	</footer>
