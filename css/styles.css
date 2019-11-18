@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata|Staatliches&display=swap');
 
 body {
 	background-color: #000000;
@@ -10,20 +10,68 @@ h1 {
 }
 
 h2 {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Staatliches', cursive;
+	color: #990000;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h3 {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color: #b30000;
 }
 
+h4 {
+	font-family: 'Alata', sans-serif;
+	color: #ff8080;
+}
+
 p {
-	font-family: 'Fjalla One', sans-serif;
-	color: #989898;
+	font-family: 'Alata', sans-serif;
+	color: #f5f5f0;
+	line-height: 3.0rem;
 }
 
 li {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color: #ff3333;
 }
+
+.list{
+	font-family: 'Alata', sans-serif;
+	color: #CCCCCC;
+	line-height: 3.0rem;
+
+}
+
+.homepage {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	padding-top: 25px;
+  	padding-bottom: 25px;
+}
+
+.secondheader {
+	font-family: 'Staatliches', cursive;
+	color: #e60000;
+	font-size: 55px;
+
+}
+
+.infoheader {
+	font-family: 'Staatliches', cursive;
+	color: #990000;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.headernewsletter {
+	font-family: 'Alata', sans-serif;
+	color: #ff8080;
+	font-size: 20px;
+}
+
