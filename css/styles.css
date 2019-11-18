@@ -29,7 +29,7 @@ h4 {
 	color: #ff8080;
 }
 
-p, label{
+p, label, nav{
 	font-family: 'Alata', sans-serif;
 	color: #f5f5f0;
 	line-height: 3.0rem;
@@ -47,6 +47,10 @@ footer {
 /*Actions*/
 img:hover {
 	opacity: 0.3;
+}
+
+a:hover {
+	color: #FFFFFF;
 }
 
 /*Classes*/
@@ -92,6 +96,12 @@ img:hover {
 	color: #f5f5f0;
 	line-height: 3.0rem;
 	padding-top: 30px;
+}
+
+.submitbutton {
+	font-family: 'Alata', sans-serif;
+	color: #f5f5f0;
+	line-height: 3.0rem;
 }
 
 
