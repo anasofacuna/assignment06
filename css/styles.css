@@ -27,7 +27,7 @@ h4 {
 	color: #ff8080;
 }
 
-p {
+p, label{
 	font-family: 'Alata', sans-serif;
 	color: #f5f5f0;
 	line-height: 3.0rem;
@@ -74,4 +74,6 @@ li {
 	color: #ff8080;
 	font-size: 20px;
 }
+
+
 
