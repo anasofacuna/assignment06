@@ -1,6 +1,11 @@
 <?php
 include('connect-db.php');
+
+$name = mysqli_real_escape_string($connection, htmlspecialchars($_POST['name']));
 $email = mysqli_real_escape_string($connection, htmlspecialchars($_POST['email']));
-mysqli_query($connection, "INSERT INTO aacuna_newsletter (email) VALUES ('$email')");
+$comments = mysqli_real_escape_string($connection, htmlspecialchars($_POST['comments']));
+
+mysqli_query($connection, "INSERT INTO rome (name, email, comments) VALUES ('$name', '$email', '$comments')");
+
 mysqli_close($connection);
 ?>
