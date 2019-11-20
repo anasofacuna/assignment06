@@ -31,8 +31,9 @@ h4 {
 
 p, label, nav{
 	font-family: 'Alata', sans-serif;
-	color: #f5f5f0;
+	color: #D0D0D0;
 	line-height: 3.0rem;
+	font-size: 17px;
 }
 
 li {
@@ -45,10 +46,6 @@ footer {
 }
 
 /*Actions*/
-img:hover {
-	opacity: 0.3;
-}
-
 a:hover {
 	color: #FFFFFF;
 }
@@ -89,11 +86,12 @@ a:hover {
 	font-family: 'Alata', sans-serif;
 	color: #ff8080;
 	font-size: 20px;
+	padding-bottom: 25px;
 }
 
 .pinfo {
 	font-family: 'Alata', sans-serif;
-	color: #f5f5f0;
+	color: #D0D0D0;
 	line-height: 3.0rem;
 	padding-top: 30px;
 }
@@ -102,6 +100,28 @@ a:hover {
 	font-family: 'Alata', sans-serif;
 	color: #f5f5f0;
 	line-height: 3.0rem;
+}
+
+.navbar {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 95%;
+	max-width: 1200px;
+}
+
+.positions {
+	padding-bottom: 55px;
+	padding-top: 55px;
+}
+
+.form {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.submitbutton {
+	padding-top: 10px;
 }
 
 
