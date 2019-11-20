@@ -9,5 +9,5 @@ mysqli_query($connection, "INSERT INTO rome (name, email, comments) VALUES ('$na
 
 mysqli_close($connection);
 
-header("Location: signup.php");
+header("Location: signup.html");
 ?>
