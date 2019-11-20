@@ -8,4 +8,6 @@ $comments = mysqli_real_escape_string($connection, htmlspecialchars($_POST['comm
 mysqli_query($connection, "INSERT INTO rome (name, email, comments) VALUES ('$name', '$email', '$comments')");
 
 mysqli_close($connection);
+
+header("Location: signup.php");
 ?>
