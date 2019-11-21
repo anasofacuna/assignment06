@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Assignment 6: Full Brochure Website</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/override.css">
-</head>
-
-<body>
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-12">
-				<header class="text-center">
-					<h1>UR Women's Rugby</h1>
-				</header>
-			</div>
-		</div>
-		<div class="row">
-			<nav class="navbar text-left">
-				<ul>
-					<div class="col-md-4">
-						<ul><a href="index.html" class="btn btn-danger btn-lg btn-block">Team Homepage</a></ul>
-					</div>
-					<div class="col-md-4">
-						<ul><a href="info.html" class="btn btn-danger btn-lg btn-block">What is Rugby?</a></ul>
-					</div>
-					<div class="col-md-4">
-						<ul><a href="signup.html" class="btn btn-danger btn-lg btn-block btn-lg active" role="button" aria-pressed="true">Join Us!</a></ul>
-					</div>
-				</ul>
-			</nav>
-		</div>
+<?php include 'inc/top.php'; ?>
 
 		<main>
 		<div class="row">
@@ -81,17 +47,10 @@
 
 		</main>
 
-		<footer class="row">
-			<p>
-				<ul>
-					<h4 class="col-md-6">CSC 174: Advanced Front-end Web Design and Development</h4>
-					<h4 class="col-md-6">Content gathered from <a href="https://chicorugby.org/rugby-101/">Chico Rugby</a> and <a href="https://en.wikipedia.org/wiki/Rugby_union">Wikipedia</a></h4>
-				</ul>
-			</p>
-		</footer>
+		<?php include 'inc/foot.php'; ?>
 
 	</div>
-
+	<script src="js/menu-highlighter.js"></script>
 </body>
 
 </html>
