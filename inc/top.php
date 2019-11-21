@@ -21,7 +21,7 @@
 		<div class="row">
 			<nav class="navbar text-left">
 				<ul>
-					<li class="col-md-4"><a href="index.php" class="btn btn-danger btn-lg btn-block active">Team Homepage</a></li>
+					<li class="col-md-4"><a href="index.php" class="btn btn-danger btn-lg btn-block">Team Homepage</a></li>
 					<li class="col-md-4"><a href="info.php" class="btn btn-danger btn-lg btn-block" role="button" aria-pressed="true">What is Rugby?</a></li>
 					<li class="col-md-4"><a href="signup.php" class="btn btn-danger btn-lg btn-block">Join Us!</a></li>
 				</ul>
