@@ -24,7 +24,7 @@ h3 {
 	color: #b30000;
 }
 
-h4 {
+h4, .h4 {
 	font-family: 'Alata', sans-serif;
 	color: #ff8080;
 }
@@ -39,6 +39,7 @@ p, label, nav{
 li {
 	font-family: 'Staatliches', cursive;
 	color: #ff3333;
+	list-style-type: none;
 }
 
 footer {
