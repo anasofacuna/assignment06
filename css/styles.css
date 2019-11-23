@@ -46,10 +46,6 @@ footer {
 	padding-top: 20px;
 }
 
-ul{
-	display: flex;
-}
-
 /*Actions*/
 a:hover {
 	color: #FFFFFF;
@@ -127,4 +123,8 @@ a:hover {
 
 .submitbutton {
 	padding-top: 10px;
+}
+
+.index-ul{
+	display: flex;
 }

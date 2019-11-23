@@ -21,7 +21,7 @@
 		</div>
 		<div class="row">
 			<nav class="navbar text-left">
-				<ul>
+				<ul class="index-ul">
 					<li class="col-md-4"><a href="index.php" class="btn btn-danger btn-lg btn-block">Team Homepage</a></li>
 					<li class="col-md-4"><a href="info.php" class="btn btn-danger btn-lg btn-block" role="button" aria-pressed="true">What is Rugby?</a></li>
 					<li class="col-md-4"><a href="signup.php" class="btn btn-danger btn-lg btn-block">Join Us!</a></li>
@@ -78,7 +78,14 @@
 			</div>
 		</main>
 
-		<?php include 'inc/foot.php'; ?>
+		<footer class="row">
+			<div>
+				<ul class="index-ul">
+					<li class="col-md-6 h4">CSC 174: Advanced Front-end Web Design and Development</li>
+					<li class="col-md-6 h4">Content gathered from <a href="https://chicorugby.org/rugby-101/">Chico Rugby</a> and <a href="https://en.wikipedia.org/wiki/Rugby_union">Wikipedia</a></li>
+				</ul>
+			</div>
+		</footer>
 
 	</div>
 
